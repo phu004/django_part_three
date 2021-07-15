@@ -28,6 +28,7 @@ from .model import ToDoList, Item
 admin.site.register(ToDoList)
 admin.site.register(Item)
 ```
+</details>  
   
 Start the server
 ```sh
