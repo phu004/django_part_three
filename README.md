@@ -22,7 +22,7 @@ Modify "main/admin.py" to register the model "Item"
   
 ```sh
 from django.contrib import admin
-from .model import ToDoList, Item
+from .models import ToDoList, Item
 
 # Register your models here.
 admin.site.register(ToDoList)
@@ -33,7 +33,6 @@ admin.site.register(Item)
 Start the server
 ```sh
 ./runproject
-
-
 ```
 
+Copy the url from the output to your browsr, and navigate to "/admin". It should bring up the dash board login window, use "your_upi/123456" to authenticate. Once you are in the dash board, create a few items for the ToDoLists.
