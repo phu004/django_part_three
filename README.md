@@ -44,7 +44,21 @@ Objectives:
 - Create a template for the webpage under the name "aboutme.html", it should extend the base template "base.html"
 - The body of the webpage should display the text "I like learning Django", the footer should display the text "Copyright 2021 FT3"
 
-Step one: modify "main/url.py" to specify the path that would match the pattern "/aboutme", and then redirect the traffic to a view function "views.aboutme"
+<b>Step one</b>: modify "main/url.py" to specify the path that would match the pattern "/aboutme", and then redirect the traffic to a view function "views.aboutme"
+<details>
+  <summary>Click for solution</summary>
+  
+```sh
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('<int:id>', views.index),
+    path('', views.home),
+    path('aboutme', views.aboutme)
+]
+```
+</details>
 
 <b>Step two</b>: Add a view function called "aboutme" in "main.views.py", this view function should use a template "aboutme.html"
 <details>
