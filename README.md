@@ -35,4 +35,6 @@ Start the server
 ./runproject
 ```
 
-Copy the url from the output to your browsr, and navigate to "/admin". It should bring up the dash board login window, use "your_upi/123456" to authenticate. Once you are in the dash board, create a few items for the ToDoLists.
+Copy the url from the output to your browsr, and navigate to "/admin". It should bring up the dash board login window, use "your_upi/123456" to authenticate. Once you are in the dash board, create a few items for the ToDoLists. Also feel free to delete some ToDoLists, notice that the items that are associated with the deleted ToDoList are deleted as well.
+
+<br/><br/>
