@@ -85,3 +85,5 @@ def aboutme(response):
 {% endblock %}
 ```
 </details>
+  
+Once you finish the steps above, restart the server and go to the path "/aboutme", you should get something similar to the following:
