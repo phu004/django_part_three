@@ -18,12 +18,15 @@ workon dj && cd mysite
 
 Modify "main/admin.py" to register the model "Item"
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Solution</summary>
   
-  ## Heading
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
-</details>
+```sh
+from django.contrib import admin
+from .model import ToDoList, Item
+
+# Register your models here.
+admin.site.register(ToDoList)
+admin.site.register(Item)
+
+```
 
