@@ -38,3 +38,8 @@ Start the server
 Copy the url from the output to your browsr, and navigate to "/admin". It should bring up the dash board login window, use "your_upi/123456" to authenticate. Once you are in the dash board, create a few items for the ToDoLists. Also feel free to delete some ToDoLists, notice that the items that are associated with the deleted ToDoList are deleted as well.
 
 <br/><br/>
+## 3. Create a webpage using template 
+Objectives:
+- The webpage should be reached by using the path "/aboutme"
+- Create a template for the webpage under the name "aboutme.html", it should extend the base template "base.html"
+- The body of the webpage should display the text "My name is (your_full_name)", the footer should display the text "Copyright 2021 FT3"
