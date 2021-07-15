@@ -52,6 +52,7 @@ Step three: Create the template file "aboutme.html" under "/mysite/main/template
 
 <details>
   <summary>Click for solution</summary>
+  
 ```sh
 {% extends 'main/base.html' %}
 {% block content %}
