@@ -13,3 +13,17 @@ Once you are in, activate the python virtual environment and cd into the project
 workon dj && cd mysite
 ```
 <br/><br/>
+
+## 2. Register the model "Item" to admin dash board
+
+Modify "main/admin.py" to register the model "Item"
+<details>
+  <summary>Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+
