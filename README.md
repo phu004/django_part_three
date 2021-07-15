@@ -42,4 +42,23 @@ Copy the url from the output to your browsr, and navigate to "/admin". It should
 Objectives:
 - The webpage should be reached by using the path "/aboutme"
 - Create a template for the webpage under the name "aboutme.html", it should extend the base template "base.html"
-- The body of the webpage should display the text "My name is (your_full_name)", the footer should display the text "Copyright 2021 FT3"
+- The body of the webpage should display the text "I like learning Django", the footer should display the text "Copyright 2021 FT3"
+
+Step one: modify "main/url.py" to specify the path that would match the pattern "/aboutme", and then redirect the traffic to a view function "views.aboutme"
+
+Step two: Add a view function called "aboutme" in "main.views.py", this view function should use a template "aboutme.html"
+
+Step three: Create the template file "aboutme.html" under "/mysite/main/templates/main/". This template file should extend "base.html", and look similarly to home.html with different block content.  
+
+<details>
+  <summary>Click for solution</summary>
+```sh
+{% extends 'main/base.html' %}
+{% block content %}
+        <p>I like learning Django</p>
+{% endblock %}
+{% block footer %}
+        <p>Copyright 2021 FT3</p>
+{% endblock %}
+```
+</details>
