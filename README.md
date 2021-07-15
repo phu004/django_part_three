@@ -87,3 +87,5 @@ def aboutme(response):
 </details>
   
 Once you finish the steps above, restart the server and go to the path "/aboutme", you should get something similar to the following:
+![alt text](https://github.com/phu004/django_part_three/blob/main/exercise3.png)
+  
