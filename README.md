@@ -29,10 +29,11 @@ admin.site.register(ToDoList)
 admin.site.register(Item)
 ```
 </details>  
-<br/><br/>
-Start the server
 
+Start the server
 ```sh
 ./runproject
+
+
 ```
 
