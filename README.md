@@ -48,7 +48,7 @@ Step one: modify "main/url.py" to specify the path that would match the pattern 
 
 Step two: Add a view function called "aboutme" in "main.views.py", this view function should use a template "aboutme.html"
 
-Step three: Create the template file "aboutme.html" under "/mysite/main/templates/main/". This template file should extend "base.html", and look similarly to home.html with different block content.  
+<b>Step three</b>: Create the template file "aboutme.html" under "/mysite/main/templates/main/". This template file should extend "base.html", and look similarly to home.html with different block content.  
 
 <details>
   <summary>Click for solution</summary>
