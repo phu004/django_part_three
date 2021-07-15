@@ -18,7 +18,7 @@ workon dj && cd mysite
 
 Modify "main/admin.py" to register the model "Item"
 <details>
-  <summary>Solution</summary>
+  <summary>Click for solution</summary>
   
 ```sh
 from django.contrib import admin
@@ -27,6 +27,10 @@ from .model import ToDoList, Item
 # Register your models here.
 admin.site.register(ToDoList)
 admin.site.register(Item)
-
+```
+  
+Start the server
+```sh
+./runproject
 ```
 
