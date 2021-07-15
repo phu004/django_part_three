@@ -46,7 +46,15 @@ Objectives:
 
 Step one: modify "main/url.py" to specify the path that would match the pattern "/aboutme", and then redirect the traffic to a view function "views.aboutme"
 
-Step two: Add a view function called "aboutme" in "main.views.py", this view function should use a template "aboutme.html"
+<b>Step two</b>: Add a view function called "aboutme" in "main.views.py", this view function should use a template "aboutme.html"
+<details>
+  <summary>Click for solution</summary>
+  
+```sh
+def aboutme(response):
+    return render(response, "main/aboutme.html", {})
+```
+</details>
 
 <b>Step three</b>: Create the template file "aboutme.html" under "/mysite/main/templates/main/". This template file should extend "base.html", and look similarly to home.html with different block content.  
 
