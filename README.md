@@ -1,4 +1,4 @@
-# django_part_tree
+# Django Workshop Exercise 3
 
 In this exercise we will use Django admin dashboard to populate some data in the built in SQLight database. Then we will use Django template to create a webpage.
 <br/><br/>
