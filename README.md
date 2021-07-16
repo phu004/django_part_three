@@ -70,7 +70,7 @@ def aboutme(response):
 ```
 </details>
 
-<b>Step three</b>: Create the template file "aboutme.html" under "/mysite/main/templates/main/". This template file should extend "base.html", and look similarly to home.html with different block content.  
+<b>Step three</b>: Create the template file "aboutme.html" under "/mysite/main/templates/main/". This template file should extend "base.html", and look similarly to home.html with different block sections.  
 
 <details>
   <summary>Click for solution</summary>
