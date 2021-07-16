@@ -60,7 +60,7 @@ urlpatterns = [
 ```
 </details>
 
-<b>Step two</b>: Add a view function called "aboutme" in "main.views.py", this view function should use a template "aboutme.html"
+<b>Step two</b>: Add a view function called "aboutme" in "main.views.py", this view function should use a template "aboutme.html" for rendering
 <details>
   <summary>Click for solution</summary>
   
